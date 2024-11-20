@@ -1,13 +1,13 @@
 {
-  "name": "modern-portfolio",
+  "name": "portfolio",
   "version": "1.0.1",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Tom Sarver",
+    "email": "tom@tomsarver.dev",
+    "url": "https://github.com/tsarvs"
   },
-  "description": "Ethan Smith is a Full-stack web developer with 10+ years of experience.",
+  "description": "Tom Sarver is a Full-stack web developer with 5+ years of experience in the tech industry.",
   "keywords": [
     "react",
     "next",
@@ -26,23 +26,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/modern-portfolio.git"
+    "url": "https://github.com/tsarvs/portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/modern-portfolio#readme",
-  "bugs": {
-    "url": "https://github.com/sanidhyy/modern-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
-  },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
