@@ -25,6 +25,7 @@ module.exports = {
         primary: "#131424",
         secondary: "#393A47",
         accent: "#F13024",
+        green: "#27d81b",
       },
       backgroundImage: {
         circleStar: 'url("/circle-star.svg")',
