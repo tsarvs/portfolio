@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Socials from "../components/Socials";
-import {BsArrowRight} from "react-icons/bs";
+import {BsFiletypePdf} from "react-icons/bs";
 
 const ViewResumeButton = () => <button onClick={() => window.open("/TomSarverResumeFW2024.pdf", "_blank")}
                                        className="btn rounded-full border border-white/50 max-w-[250px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-green group"
@@ -10,8 +10,8 @@ const ViewResumeButton = () => <button onClick={() => window.open("/TomSarverRes
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                 View My Resume
               </span>
-    <BsArrowRight
-        className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
+    <BsFiletypePdf
+        className="-translate-x-[120%] opacity-0 group-hover:flex group-hover:-translate-x-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
         aria-hidden
     />
 </button>
@@ -25,7 +25,7 @@ const Header = () => {
                     <Image
                         src="/logo.svg"
                         alt="logo"
-                        width={220}
+                        width={100}
                         height={48}
                         priority
                     />
