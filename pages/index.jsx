@@ -34,24 +34,35 @@ const Home = () => {
                         className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
                     >
                         I’m a dedicated Software Engineer with over 5 years of professional experience in the tech
-                        industry. My expertise lies in building fully-automated, scalable, cross-platform applications. I'm passionate
+                        industry. My expertise lies in building fully-automated, scalable, cross-platform applications.
+                        I'm passionate
                         about collaborative tinkering, and I enjoy tackling complex challenges and delivering
                         high-quality results as a team alongside my peers.
                         <br/><br/>
-                        I’m eager to bring my skills in full-stack development to projects that make a meaningful
-                        impact. Please explore my portfolio to learn more about my work and how I can contribute to your team!
+                        <motion.span
+                            variants={fadeIn("down", 0.4)}
+                            initial="hidden"
+                            animate="show"
+                            exit="hidden"
+                            className="hidden lg:block max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+                        >
+                            I’m eager to bring my skills in full-stack development to projects that make a meaningful
+                            impact. Please explore my portfolio to learn more about my work and how I can contribute to
+                            your team!
+                        </motion.span>
                     </motion.p>
 
+
                     {/* btn */}
-                    <div className="flex justify-center xl:hidden relative">
+                    <div className="flex justify-center md:hidden relative">
                         <ProjectsBtn/>
                     </div>
                     <motion.div
-                        variants={fadeIn("down", 0.4)}
+                        variants={fadeIn("down", 0.5)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="hidden xl:flex"
+                        className="hidden md:flex"
                     >
                         <ProjectsBtn/>
                     </motion.div>
