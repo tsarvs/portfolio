@@ -54,7 +54,7 @@ const Home = () => {
 
 
                     {/* btn */}
-                    <div className="flex justify-center md:hidden relative">
+                    <div className="flex justify-center lg:hidden relative">
                         <ProjectsBtn/>
                     </div>
                     <motion.div
@@ -62,7 +62,7 @@ const Home = () => {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="hidden md:flex"
+                        className="hidden lg:flex"
                     >
                         <ProjectsBtn/>
                     </motion.div>
