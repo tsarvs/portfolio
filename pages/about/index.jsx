@@ -133,13 +133,20 @@ const About = () => {
                         className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
                     >
                         Ever since I could hold a video game controller, I've been astounded by the world of
-                        technology. I was lucky enough to able to turn my fascination into a career, as I have now been working in the
+                        technology. I was lucky enough to able to turn my fascination into a career, as I have now been
+                        working in the
                         tech industry for over 5 years professionally.
                         <br/><br/>
-                        I've had the opportunity to work on a variety of projects that have helped me grow in multiple
-                        different ways, both with my technical and interpersonal skills. I'm always looking for new
-                        challenges and opportunities to learn and collaborate with others, and I'm excited to
-                        see where my career takes me next.
+                        <motion.span variants={fadeIn("right", 0.5)}
+                                     initial="hidden"
+                                     animate="show"
+                                        className="hidden lg:block"
+                        >I've had the opportunity to work on a variety of projects that have helped me grow in multiple
+                            different ways, both with my technical and interpersonal skills. I'm always looking for new
+                            challenges and opportunities to learn and collaborate with others, and I'm excited to
+                            see where my career takes me next.
+                        </motion.span>
+
                     </motion.p>
 
                     {/* counters */}
