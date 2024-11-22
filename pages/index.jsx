@@ -52,7 +52,7 @@ const Home = () => {
 
 
                     {/* btn */}
-                    <div className="flex justify-center lg:hidden">
+                    <div className="flex justify-center lg:hidden pb-10">
                         <ProjectsBtn/>
                     </div>
                     <motion.div
