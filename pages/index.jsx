@@ -7,8 +7,7 @@ import Avatar from "../components/Avatar";
 import {fadeIn} from "../variants";
 
 const Home = () => {
-    return (
-        <div className="bg-primary/60 h-full">
+    return (<div className="bg-primary/60 h-full">
             {/* text */}
             <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
                 <div
@@ -47,14 +46,13 @@ const Home = () => {
                             className="hidden lg:block max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
                         >
                             I’m eager to bring my skills in full-stack development to projects that make a meaningful
-                            impact. Please explore my portfolio to learn more about my work and how I can contribute to
-                            your team!
+                            impact. Please explore my portfolio to learn more about my work!
                         </motion.span>
                     </motion.p>
 
 
                     {/* btn */}
-                    <div className="flex justify-center lg:hidden relative">
+                    <div className="flex justify-center lg:hidden">
                         <ProjectsBtn/>
                     </div>
                     <motion.div
@@ -92,8 +90,7 @@ const Home = () => {
                     <Avatar/>
                 </motion.div>
             </div>
-        </div>
-    );
+        </div>);
 };
 
 export default Home;
