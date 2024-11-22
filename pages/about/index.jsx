@@ -81,7 +81,7 @@ export const aboutData = [
         ],
     },
     {
-        title: "Certifications",
+        title: "certs",
         info: [
             {
                 title: "AWS Certified Cloud Practitioner",
@@ -94,7 +94,7 @@ export const aboutData = [
         ],
     },
     {
-        title: "credentials",
+        title: "education",
         info: [
             {
                 title: "Bachelor of Computer Science & Computer Engineering",
@@ -112,7 +112,7 @@ const About = () => {
     const [index, setIndex] = useState(0);
 
     return (
-        <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+        <div className="h-full bg-primary/30 py-4 lg:py-32 text-center xl:text-left">
 
             <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
                 {/* text */}
@@ -122,7 +122,7 @@ const About = () => {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="h2"
+                        className="h2 pt-4 lg:pt-0"
                     >
                         Writing code that <span className="text-accent">captivates.</span>
                     </motion.h2>
@@ -134,8 +134,7 @@ const About = () => {
                     >
                         Ever since I could hold a video game controller, I've been astounded by the world of
                         technology. I was lucky enough to able to turn my fascination into a career, as I have now been
-                        working in the
-                        tech industry for over 5 years professionally.
+                        working in the tech industry for over 5 years professionally.
                         <br/><br/>
                         <motion.span variants={fadeIn("right", 0.5)}
                                      initial="hidden"
