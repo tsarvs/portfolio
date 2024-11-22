@@ -30,7 +30,7 @@ const Home = () => {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+                        className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-0 lg:mb-10 xl:mb-16"
                     >
                         I’m a dedicated Software Engineer with over 5 years of professional experience in the tech
                         industry. My expertise lies in building fully-automated, scalable, cross-platform applications.
@@ -43,7 +43,7 @@ const Home = () => {
                             initial="hidden"
                             animate="show"
                             exit="hidden"
-                            className="hidden lg:block max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+                            className="hidden lg:block"
                         >
                             I’m eager to bring my skills in full-stack development to projects that make a meaningful
                             impact. Please explore my portfolio to learn more about my work!
